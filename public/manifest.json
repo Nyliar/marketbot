@@ -1,0 +1,41 @@
+{
+  "name": "MarketBot - Altered TCG Market Tracker",
+  "short_name": "MarketBot",
+  "description": "Track and search Altered TCG card prices and abilities",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#2563eb",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/assets/icon-192.svg",
+      "sizes": "192x192",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/assets/icon-512.svg",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["games", "utilities"],
+  "shortcuts": [
+    {
+      "name": "Search Cards",
+      "short_name": "Search",
+      "description": "Search for unique cards",
+      "url": "/search",
+      "icons": [{ "src": "/assets/search.svg", "sizes": "96x96" }]
+    },
+    {
+      "name": "Abilities List",
+      "short_name": "Abilities",
+      "description": "Browse card abilities",
+      "url": "/abilities-list",
+      "icons": [{ "src": "/assets/list.svg", "sizes": "96x96" }]
+    }
+  ]
+}
